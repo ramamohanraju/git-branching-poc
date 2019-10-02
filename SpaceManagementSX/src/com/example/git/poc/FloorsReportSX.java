@@ -9,5 +9,7 @@ public class FloorsReportSX {
         List<String> fields = Arrays.asList("Code", "Name", "Building");
         System.out.println("This SX creates a report of Floors with following fields");
         fields.forEach(field -> System.out.print(field + " | "));
+        String value = NewFeature.getFeature();
+        System.out.println(value);
     }
 }
