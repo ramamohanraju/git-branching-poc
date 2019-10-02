@@ -11,6 +11,6 @@ public class FloorsReportSX {
         fields.forEach(field -> System.out.print(field + " | "));
         String value = NewFeature.getFeature();
         System.out.println(value);
-		System.out.println("Release Hot Fix");
+		System.out.println("Release Hot Fix 1");
     }
 }
